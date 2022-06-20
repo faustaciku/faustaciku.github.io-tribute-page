@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+}
+h1,
+h3 {
+  text-align: center;
+}
+h1 {
+  color: #a19f9f;
+}
+h3,
+p {
+  color: #858585;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+.qoutes {
+  color: #a19f9f;
+}
