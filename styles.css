@@ -43,10 +43,10 @@ p {
 }
 
 .about-section {
-  font-size: 22px;
-  margin-left: -10px;
-  margin-top: 20px;
-  background: rgba(252, 252, 252, 0.091);
+  font-size: 18px;
+  width: 80%;
+  background: white;
+  color: black;
   padding: 40px;
   border-radius: 10px 70px;
 }
@@ -87,6 +87,8 @@ ul {
   margin: 70px auto;
 }
 .centered,
+.about-section,
+h4,
 .qoute,
 .qoutes,
 #main-image {
