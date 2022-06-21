@@ -1,7 +1,7 @@
 body {
   background-color: black;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 90px;
+  margin-right: 90px;
 }
 h1 {
   color: #d5d2d2;
@@ -23,7 +23,8 @@ h4 {
 h1,
 h2,
 h3,
-.qoutes {
+.qoutes,
+footer {
   text-align: center;
 }
 
@@ -42,7 +43,7 @@ p {
 }
 
 .about-section {
-  font-size: 25px;
+  font-size: 22px;
   margin-left: -10px;
   margin-top: 20px;
   background: rgba(252, 252, 252, 0.091);
@@ -51,6 +52,7 @@ p {
 }
 
 #main-image,
+#qoute-image,
 .qoute {
   border-radius: 10px;
 }
@@ -74,10 +76,23 @@ img {
   color: rgb(204, 201, 201);
   padding: 14px;
 }
+ul {
+  font-size: 20px;
+  margin-top: 20px;
+  color: white;
+  list-style-image: url("images/icons8-book-32.png");
+}
+#qoute-image {
+  display: block;
+  margin: 70px auto;
+}
 .centered,
 .qoute,
 .qoutes,
 #main-image {
   display: block;
   margin: 0 auto;
+}
+a {
+  color: #eee;
 }
